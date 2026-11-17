@@ -4,10 +4,10 @@ A two-month exploratory research project I designed and carried out under Dr. Ch
 
 ## Data
 
-- **Observations: EECRA ship reports.** Raw fixed-width synthetic cloud reports from ships, 1952–2008. These are parsed, filtered to ocean reports, and used as the "actual" record.
+- **Observations: EECRA ship reports.** Raw fixed-width synthetic cloud reports from ships, 1952–2008. These are parsed, filtered to ocean reports, and used as the "observed" record.
 - **Model: CESM1 Large Ensemble (historical, member 002).** The monthly `CLOUD` variable at the lowest model level (1920–2005) stands in for fog and low cloud.
-- **ICOADS 2° Enhanced (NOAA PSL).** Monthly gridded surface cloudiness (`cldc`) from ship reports, used during early exploration. Freeman, E., et al. (2017). ICOADS Release 3.0: a major update to the historical marine climate record. *Int. J. Climatol.*, 37(5), 2211–2232. https://doi.org/10.1002/joc.4775
-- **ERA5 reanalysis (ECMWF / Copernicus C3S).** Monthly averaged low cloud cover (`lcc`), 1940–2024, used for seasonal comparison with the model. Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Q. J. R. Meteorol. Soc.*, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803. Dataset: *ERA5 monthly averaged data on single levels from 1940 to present*, https://doi.org/10.24381/cds.f17050d7
+- **ICOADS 2° Enhanced (NOAA PSL).** Monthly gridded surface cloudiness (`cldc`) from ship reports, used during early exploration.
+- **ERA5 reanalysis (ECMWF / Copernicus C3S).** Monthly averaged low cloud cover (`lcc`), 1940–2024, used for seasonal comparison with the model.
 - **Study period:** 1955–2004.
 
 Raw data lives in `data/` and is not tracked in git.
